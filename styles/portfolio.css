@@ -65,6 +65,9 @@ nav ul{
     font-size: 18px;
     color: #757575;
 }
+.section-description2{
+    font-size: 16px;
+}
 
 
 
@@ -140,4 +143,35 @@ main{
 .item-description{
     font-weight: bold;
     font-size: 20px;
+}
+
+/* what i do style */
+.what-i-do{
+    background-color: #FFF8F3;
+    border: none;
+    border-radius: 10px;
+}
+.des-div{
+    text-align: center;
+    align-items: center;
+}
+.tec-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.section-description2{
+    color: #757575;
+    font-size: 18px;
+}
+.section-title2{
+    font-weight: bold;
+    color: #181818;
+    font-size: 20px;
+}
+.tec{
+    width: 200px;
+    background: white;
+    border: 0;
+    border-radius: 10px;
 }
