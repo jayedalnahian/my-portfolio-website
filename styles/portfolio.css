@@ -1,0 +1,97 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-one{
+    color: #1E1E1E;
+}
+.dark-two{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 19px 36px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+/* banner style */
+.banner-content{
+    margin-left: 200px;
+}
+.hi-i-am{
+    font-size: 45px;
+    color: #474747;
+    font-weight: bold;
+}
+.jayedalnahian{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    color: #474747;
+    font-size: 18px;
+}
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-contact{
+    padding: 19px 36px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.img{
+    width: 584px;
+}
+
+/* header */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    background-position: top left, bottom right;
+}
