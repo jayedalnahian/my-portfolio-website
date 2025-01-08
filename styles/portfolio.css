@@ -175,3 +175,82 @@ main{
     border: 0;
     border-radius: 10px;
 }
+
+
+/* resume style */
+
+.resume-elements{
+    display: flex;
+    gap: 71px;
+}
+.resume-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 160px;
+    margin-bottom: 113px;
+    text-align: center;
+}
+
+.my-experience{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.experience-name{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+
+}
+.experience-sub-description{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+}
+hr{
+    border: 0.5px solid #D1D1D1;
+    margin: 30px 0;
+}
+
+.text-center{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+/* footer style */
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+.footer{
+    display: flex;
+    padding: 230px;
+    gap: 117px;
+    background-color: rgb(248, 244, 239);
+}
+input{
+    font-size: 16px;
+    height: 64px;
+    width: 360px;
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+    padding: 12px 20px;
+}
+li{
+    list-style-type: none;
+}
+textarea{
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+}
